@@ -2,12 +2,12 @@
   
 Summary:	Python module for decorators, wrappers and monkey patching
 Name:		python-wrapt
-Version:	1.11.2
-Release:	5
+Version:	1.12.0
+Release:	1
 Group:		Development/Python
 License:	Python
 Url:		https://pypi.python.org/pypi/wrapt
-Source0:	https://files.pythonhosted.org/packages/23/84/323c2415280bc4fc880ac5050dddfb3c8062c2552b34c2e512eb4aa68f79/wrapt-1.11.2.tar.gz
+Source0:	https://files.pythonhosted.org/packages/ee/bc/7993faa8084b5a5dbabb07a197ae1b7590da4752dc80455d878573553e2f/wrapt-1.12.0.tar.gz
 BuildRequires:	python-setuptools
 BuildRequires:	pkgconfig(python3)
 # FIXME why isn't this autodetected???
