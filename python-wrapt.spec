@@ -3,8 +3,8 @@
   
 Summary:	Python module for decorators, wrappers and monkey patching
 Name:		python-wrapt
-Version:	1.14.1
-Release:	2
+Version:	1.16.0
+Release:	1
 Group:		Development/Python
 License:	Python
 Url:		https://pypi.python.org/pypi/wrapt
