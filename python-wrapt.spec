@@ -2,7 +2,7 @@
 %bcond tests 1
 
 Name:		python-wrapt
-Version:	2.1.0
+Version:	2.1.1
 Release:	1
 Summary:	Python module for decorators, wrappers and monkey patching
 License:	BSD-2-Clause
