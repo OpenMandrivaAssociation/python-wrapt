@@ -51,4 +51,5 @@ WRAPT_DISABLE_EXTENSIONS=true pytest -v ${ignore-} -k "$skiptests"
 %doc README.md
 %license LICENSE
 %{python_sitearch}/%{module}
+%{python_sitearch}/%{module}-stubs
 %{python_sitearch}/%{module}-%{version}.dist-info
