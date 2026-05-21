@@ -2,15 +2,15 @@
 %bcond tests 1
 
 Name:		python-wrapt
-Version:	2.1.2
+Version:	2.2.0
 Release:	1
 Summary:	Python module for decorators, wrappers and monkey patching
 License:	BSD-2-Clause
 Group:		Development/Python
 URL:		https://pypi.python.org/pypi/wrapt
 Source0:	https://files.pythonhosted.org/packages/source/w/%{module}/%{module}-%{version}.tar.gz#/%{name}-%{version}.tar.gz
-BuildSystem:	python
 
+BuildSystem:	python
 BuildRequires:	pkgconfig
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(pip)
@@ -29,7 +29,7 @@ rm -rf src/%{module}.egg-info
 
 %build -p
 export CLFAGS="%{optflags}"
-export LDFLAGS="%{ldflags} -lpython%{py_ver}"
+export LDFLAGS="%{ldflags} -lpython%{pyver}"
 
 %if %{with tests}
 %check
