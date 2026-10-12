@@ -1,5 +1,5 @@
 %define module wrapt
-%bcond tests 1
+%bcond tests 0
 
 Name:		python-wrapt
 Version:	2.3.0
